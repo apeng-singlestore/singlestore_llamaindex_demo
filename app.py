@@ -1,6 +1,4 @@
 from tabnanny import verbose
-from langchain.chat_models import ChatOpenAI
-from langchain.schema import AIMessage, HumanMessage
 from llama_index import VectorStoreIndex
 from llama_index.vector_stores import SingleStoreVectorStore
 from llama_index.llms import ChatMessage, MessageRole
